@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Data
+data/raw/
+data/processed/
+data/cached/
+*.pkl
+*.csv
+*.xlsx
+
+# Models
+models/
+*.joblib
+
+# Results
+results/
+plots/
+*.png
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

@@ -1,0 +1,37 @@
+# Fall Detection Configuration
+data:
+  data_path: "data/raw"
+  cache_dir: "data/cached"
+  sensor_locations:
+    - "r.ankle"
+    - "l.ankle" 
+    - "r.thigh"
+    - "l.thigh"
+    - "head"
+    - "sternum"
+    - "waist"
+  features:
+    - "Acceleration"
+    - "Angular Velocity"
+    - "Magnetic Field"
+
+preprocessing:
+  test_size: 0.2
+  val_size: 0.2
+  random_state: 42
+  scaler_type: "StandardScaler"
+
+models:
+  random_forest:
+    n_estimators: 100
+    random_state: 42
+    class_weight: "balanced"
+  logistic_regression:
+    random_state: 42
+    class_weight: "balanced"
+    max_iter: 1000
+
+output:
+  models_dir: "models"
+  results_dir: "results"
+  plots_dir: "plots"
