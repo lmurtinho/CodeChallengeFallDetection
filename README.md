@@ -16,7 +16,7 @@ The main goal is to predict, based on body sensor data, whether a fall took plac
 ## Project Structure
 
 ```
-fall-detection/
+CodeChallengeFallDetection/
 ├── README.md
 ├── requirements.txt
 ├── config/
