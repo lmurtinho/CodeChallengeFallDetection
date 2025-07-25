@@ -186,6 +186,11 @@ predictions = model.predict(X_new_normalized)
 1. **Random Forest**: Ensemble method with balanced class weights
 2. **Logistic Regression**: Linear classifier with L2 regularization
 3. **Logistic Regression L1**: Feature selection through L1 penalty
+4. **CNN**: Running outside of the main train/eval pipeline for now, use:
+
+```python
+python src/data/prep_cnn_data.py
+python scripts/train_cnn_model.py
 
 ### Visualization Features
 - **Confusion matrices**: Visual representation of model performance
