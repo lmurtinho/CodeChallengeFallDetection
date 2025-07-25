@@ -19,7 +19,6 @@ The main goal is to predict, based on body sensor data, whether a fall took plac
 fall-detection/
 ├── README.md
 ├── requirements.txt
-├── setup.py
 ├── config/
 │   └── config.yaml
 ├── data/
