@@ -16,7 +16,6 @@ data/cached/
 *.xlsx
 
 # Models
-models/
 *.joblib
 
 # Results
@@ -30,3 +29,6 @@ plots/
 
 # OS
 .DS_Store
+
+# Virtual Environments
+venv/
